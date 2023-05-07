@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Currency Converter - Result</title>
+		<link rel="stylesheet" type="text/css" href="static/styles.css" />
+
+</head>
+<body>
+	<h1>Currency Converter - Result</h1>
+	<form action="/">
+	<table>
+		<tr>
+			<th>From currency</th>
+			<td>{{ from_currency }}</td>
+		</tr>
+		<tr>
+			<th>To currency</th>
+			<td>{{ to_currency }}</td>
+		</tr>
+		<tr>
+			<th>Currency rates</th>
+			<td>{{ CurrencyRates }}</td>
+		</tr>
+		<tr>
+			<th>Amount</th>
+			<td>{{ amount }}</td>
+		</tr>
+		<tr>
+			<th>Converted amount</th>
+			<td>{{ result }}</td>
+		</tr>
+	</table>
+	<input type="submit" value="Home">
+	</form>
+</body>
+</html>
